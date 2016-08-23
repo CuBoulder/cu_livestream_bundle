@@ -1,0 +1,5 @@
+name = Livestream Bundle
+description = Adds support for embedding livestream content
+core = 7.x
+
+dependencies[] = cu_livestream_embed
