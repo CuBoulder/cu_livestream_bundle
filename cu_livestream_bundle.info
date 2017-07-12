@@ -6,3 +6,4 @@ project = cu_livestream_bundle
 project status url = https://github.com/CuBoulder/cu_livestream_bundle
 
 dependencies[] = cu_livestream_embed
+bundle_group = 'request_bundles'
