@@ -15,3 +15,4 @@ And fill in "Body" with "[livestream id=\"ls_embed_1524756180\" account=\"580293
 And I press "edit-submit"
 Then I should see "My LS Video"
 And I should not see "livestream id="
+And I should not see "Not Embedded"
