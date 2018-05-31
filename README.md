@@ -1,6 +1,6 @@
 Livestream is a live broadcasting service that enable organizations to share experiences through live video. It requires a  subscription to the [Livestream service](https://livestream.com/). 
 
-The Livestream Bundle allows a Livestream video to be embedded directly into the body content of a page or block via a shortcode. [livestream id="ls_embed_123" account="123" event="123" /]
+The Livestream Bundle allows a Livestream video to be embedded directly into the body content of a page or block via a shortcode. [ livestream id="ls_embed_xxxx" account="xxxx" event="xxxx" / ]
  
 
 [![Build Status](https://travis-ci.org/CuBoulder/cu_livestream_bundle.svg?branch=master)](https://travis-ci.org/CuBoulder/cu_livestream_bundle)
