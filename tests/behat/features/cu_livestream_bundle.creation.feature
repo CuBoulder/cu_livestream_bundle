@@ -1,4 +1,4 @@
-@cu_livestream_bundle
+@cu_livestream_bundle @javascript
 Feature: Embed Livestream
 In order to stream my video content
 As an authenticated user
@@ -15,4 +15,4 @@ And fill in "Body" with "[livestream id=\"ls_embed_1524756180\" account=\"580293
 And I press "edit-submit"
 Then I should see "My LS Video"
 And I should not see "livestream id="
-And I should not see "Not Embedded"
+And I should not see "This Event Has Been Deleted"
