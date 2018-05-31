@@ -1,4 +1,4 @@
-@cu_livestream_bundle
+@cu_livestream_bundle @javascript
 Feature: Embed Livestream
 In order to stream my video content
 As an authenticated user
