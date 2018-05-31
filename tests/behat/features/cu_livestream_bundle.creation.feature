@@ -5,9 +5,7 @@ As an authenticated user
 I should be able embed the Livestream shortcode
 
 # Create basic page and paste in College of Music shortcode
-# Code for real event dispays "CU Boulder College of Music"
-# Code for not real event displays "This Event Has Been Deleted"
-# Code when bundle not enabled displays "livestream id="
+# When the bundle is not working the shortcode text is displayed "livestream id="
 
 Scenario: Functionality - Livestream embed code displays video
 Given I am logged in as a user with the "site_owner" role
@@ -17,4 +15,3 @@ And fill in "Body" with "[livestream id=\"ls_embed_1524756180\" account=\"580293
 And I press "edit-submit"
 Then I should see "My LS Video"
 And I should not see "livestream id="
-And I should see "CU Boulder College of Music"
